@@ -1,13 +1,13 @@
-import { useState } from 'react';
 import Header from './components/Header';
+
+import './Global.css';
+import MainRoutes from './Routes';
 
 function App() {
   return (
     <div className="app">
-      <center>
-        <Header></Header>
-        <h1>Hello World</h1>
-      </center>
+      <Header></Header>
+      <MainRoutes />
     </div>
   );
 }
