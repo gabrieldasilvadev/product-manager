@@ -5,9 +5,12 @@ import Main from './pages/Main';
 import Details from './pages/Details';
 import Login from './pages/Login';
 
+import Menu from './components/Menu';
+
 const MainRoutes = () => {
   return (
     <BrowserRouter>
+    <Menu></Menu>
       <Routes>
         <Route exact path="/" element={<Main />} />
         <Route path="/detalhes" element={<Details />} />
