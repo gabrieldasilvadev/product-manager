@@ -4,7 +4,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 10px;
-  color: blueviolet;
+  color: var(--primary-color);
 }
 
 .reset-password {
@@ -15,4 +15,5 @@
 
 .reset-password > a {
   text-decoration: none;
+  color: var(--primary-color);
 }
