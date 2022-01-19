@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, InputText } from '../../styles/FormStyles';
+import { Button, Input } from '../../styles/FormStyles';
 import { CustomDiv } from '../../styles/GeralStyles';
 import './index.css';
 
@@ -16,10 +16,10 @@ const Login = () => {
       </div>
 
       <label htmlFor="email">Email</label>
-      <InputText id="email" placeholder="exemplo@exemplo.com"></InputText>
+      <Input id="email" placeholder="exemplo@exemplo.com"></Input>
 
       <label htmlFor="senha">Senha</label>
-      <InputText id="senha" placeholder="Digite sua senha"></InputText>
+      <Input id="senha" placeholder="Digite sua senha"></Input>
 
       <Button>Entrar</Button>
 
