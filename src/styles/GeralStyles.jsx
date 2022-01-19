@@ -13,7 +13,7 @@ export const Navbar = styled.ul`
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--primary-color);
   padding: 0 20px;
 
   li {
@@ -29,11 +29,10 @@ export const Navbar = styled.ul`
     color: #fff;
     text-decoration: none;
     text-align: center;
-    background-color: #333;
     padding: 20px;
 
     :hover {
-      background-color: #111;
+      background-color: var(--secondary-color);
     }
   }
 `;
