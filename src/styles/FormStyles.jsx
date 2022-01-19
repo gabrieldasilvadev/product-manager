@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const InputText = styled.input`
+export const Input = styled.input`
   display: inline-block;
   width: 100%;
   padding: 12px 20px;
