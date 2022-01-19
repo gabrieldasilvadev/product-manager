@@ -15,7 +15,7 @@ export const Input = styled.input`
 
 export const Button = styled.button`
   width: 100%;
-  background-color: blueviolet;
+  background-color: var(--primary-color);
   color: #fff;
   padding: 14px 20px;
   margin: 8px 0;
@@ -24,6 +24,6 @@ export const Button = styled.button`
   cursor: pointer;
 
   :hover {
-    background-color: deeppink;
+    background-color: var(--secondary-color);
   }
 `;
