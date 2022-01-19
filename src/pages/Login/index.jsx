@@ -1,4 +1,5 @@
 import React from 'react';
+import InputText from '../../components/InputText';
 import { Button, Input } from '../../styles/FormStyles';
 import { CustomDiv } from '../../styles/GeralStyles';
 import './index.css';
@@ -15,15 +16,21 @@ const Login = () => {
         <h1>Login</h1>
       </div>
 
-      <label htmlFor="email">Email</label>
-      <Input id="email" placeholder="exemplo@exemplo.com"></Input>
+      <InputText
+        id="email"
+        placeholder="seuemail@email.com"
+        text="E-mail"
+      ></InputText>
 
-      <label htmlFor="senha">Senha</label>
-      <Input id="senha" placeholder="Digite sua senha"></Input>
+      <InputText
+        id="senha"
+        placeholder="Escreva a sua senha"
+        text="Senha"
+      ></InputText>
 
       <Button>Entrar</Button>
 
-      <div className='reset-password'>
+      <div className="reset-password">
         <a href="#">Esqueci minha senha</a>
       </div>
     </CustomDiv>
