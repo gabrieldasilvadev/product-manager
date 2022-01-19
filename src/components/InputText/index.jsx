@@ -1,11 +1,11 @@
 import React from 'react';
 import { Input } from '../../styles/FormStyles';
 
-const InputText = () => {
+const InputText = (props) => {
   return (
     <div>
-      <label htmlFor="senha">Senha</label>
-      <Input id="senha" placeholder="Digite sua senha"></Input>
+      <label htmlFor={props.id}>{props.text}</label>
+      <Input id={props.id} placeholder={props.placeholder}></Input>
     </div>
   );
 };
