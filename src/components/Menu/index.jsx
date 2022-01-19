@@ -13,10 +13,10 @@ const Menu = () => {
         <Link to={'/'}>Inicio</Link>
       </li>
       <li>
-        <Link to={'/conato'}>Conatato</Link>
+        <Link to={'/contato'}>Contato</Link>
       </li>
       <li>
-        <Link to={'sobre-nos'}>Sobre</Link>
+        <Link to={'/sobre'}>Sobre</Link>
       </li>
       <li>
         <a href="#" onClick={logout}>
