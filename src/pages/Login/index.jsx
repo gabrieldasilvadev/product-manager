@@ -5,6 +5,10 @@ import { CustomDiv } from '../../styles/GeralStyles';
 import './index.css';
 
 const Login = () => {
+  const login = () => {
+    alert('tentar logar no sistema!');
+  };
+
   return (
     <CustomDiv
       width="400px"
@@ -28,7 +32,7 @@ const Login = () => {
         text="Senha"
       ></InputText>
 
-      <Button>Entrar</Button>
+      <Button onClick={login}>Entrar</Button>
 
       <div className="reset-password">
         <a href="#">Esqueci minha senha</a>
