@@ -2,6 +2,8 @@ import React from 'react';
 import InputText from '../../components/InputText';
 import { Button, Input } from '../../styles/FormStyles';
 import { CustomDiv } from '../../styles/GeralStyles';
+import UserService from '../../service/UserService';
+
 import './index.css';
 
 const Login = () => {
