@@ -12,9 +12,16 @@ const Login = () => {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
 
-  const login = () => {
+  useEffect(() => {
+    let token = Storage.getToken();
 
-    if(!email || !senha) {
+    if (token) {
+      window.open('/', '_self');
+    }
+  });
+
+  const login = () => {
+    if (!email || !senha) {
       alert('Preencha todos os campos');
       return;
     }
@@ -22,13 +29,13 @@ const Login = () => {
     UserService.Login(email, senha)
       .then((response) => {
         console.log(response);
-        const {token, usuario} = response;
+        const { token, usuario } = response;
         Storage.saveToken(token);
 
         Storage.saveUser(new User(usuario));
         window.open('/', '_self');
       })
-      .catch(error => {
+      .catch((error) => {
         console.log(error);
         alert(error);
       });
