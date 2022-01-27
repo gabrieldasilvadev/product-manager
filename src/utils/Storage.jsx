@@ -17,14 +17,20 @@ function saveUser(usuario) {
   localStorage.setItem('usuario', json);
 }
 
+function removeUser() {
+  localStorage.removeItem('usuario');
+}
+
 function getUser() {
   let json = localStorage.getItem('user');
   return new User(JSON.parse(json));
 }
 
-export default { saveToken, 
-  getToken, 
-  removeAuthendication, 
-  saveUser, 
-  getUser 
+export default {
+  saveToken,
+  getToken,
+  removeAuthendication,
+  saveUser,
+  getUser,
+  removeUser,
 };
