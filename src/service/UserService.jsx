@@ -9,14 +9,18 @@ const userMock = {
   },
 };
 
+const authendication = {
+  token: 'c2VuaGFmb3J0ZQ==',
+  usuario: userMock,
+};
+
 function Login(email, senha) {
   return new Promise((resolve, reject) => {
-
-    if(email != 'admin@admin.com' || senha != '123456') {
+    if (email != 'admin@admin.com' || senha != '123456') {
       return reject('Usuário ou senha inválidos');
     }
 
-    return resolve(userMock);
+    return resolve(authendication);
   });
 }
 
