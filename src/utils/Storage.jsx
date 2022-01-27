@@ -5,7 +5,7 @@ function saveToken(token) {
 }
 
 function getToken() {
-  localStorage.getItem('token');
+  return localStorage.getItem('token');
 }
 
 function removeAuthendication() {
