@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 
 import Menu from './components/Menu';
+import ProductsController from './pages/ProductsController';
 
 const MainRoutes = () => {
   return (
@@ -19,6 +20,7 @@ const MainRoutes = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/contato" element={<Contact />} />
         <Route path="/sobre" element={<About />} />
+        <Route path="/controle-de-produtos" element={<ProductsController />} />
       </Routes>
     </BrowserRouter>
   );
