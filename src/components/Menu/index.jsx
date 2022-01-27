@@ -8,8 +8,6 @@ const Menu = () => {
   const logout = () => {
     Storage.removeAuthendication();
     window.open('/login', '_self');
-    Storage.removeAuthendication();
-    Storage.removeUser();
   };
 
   if (useLocation().pathname !== '/login') {
