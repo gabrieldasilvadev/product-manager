@@ -2,9 +2,11 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { Navbar } from '../../styles/GeralStyles';
+import Storage from '../../utils/Storage';
 
 const Menu = () => {
   const logout = () => {
+    Storage.removeAuthendication();
     window.open('/login', '_self');
   };
 
