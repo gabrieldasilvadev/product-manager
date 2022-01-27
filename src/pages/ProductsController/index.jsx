@@ -5,12 +5,13 @@ import Product from '../../model/Product';
 
 const ProductsController = () => {
   const [products, setProducts] = useState(new Product());
-  let productsArr = [];
+  const [productsArr, setProductsArr] = useState([]);
 
   useEffect(() => {
     ProductService.getAll()
-      .then(response => {
-        productsArr = response.data.map(product => new Product(product));
+      .then((response) => {
+        let productsArr = response.data.map((product) => new Product(product));
+        setProductsArr(productsArr);
         console.log(productsArr);
       })
       .catch((error) => {
@@ -38,17 +39,19 @@ const ProductsController = () => {
             </tr>
           </thead>
           <tbody>
-            {productsArr.map(product => {
-              (
-                <tr>
-                  <td>product.id</td>
-                  <td>product.nome</td>
-                  <td>product.valor</td>
-                  <td>product.quantidadeEstoque</td>
-                  <td>product.dataCadastro</td>
-                </tr>
-              )
-            })}
+            {productsArr.map((product) => (
+              <tr>
+                <td>{product.id}</td>
+                <td>{product.nome}</td>
+                <td>{product.valor}</td>
+                <td>{product.quantidadeEstoque}</td>
+                <td>{product.dataCadastro}</td>
+                <td>
+                  <button className="btn-link">Editar</button>
+                  <button className="btn-link">Excluir</button>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
