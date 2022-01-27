@@ -13,6 +13,12 @@ const Login = () => {
   const [senha, setSenha] = useState('');
 
   const login = () => {
+
+    if(!email || !senha) {
+      alert('Preencha todos os campos');
+      return;
+    }
+
     UserService.Login(email, senha)
       .then((response) => {
         console.log(response);
