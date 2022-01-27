@@ -9,16 +9,12 @@ function getToken() {
 }
 
 function removeAuthendication() {
-  localStorage.removeItem('token');
+  localStorage.clear()
 }
 
 function saveUser(usuario) {
   let json = JSON.stringify(usuario);
   localStorage.setItem('usuario', json);
-}
-
-function removeUser() {
-  localStorage.removeItem('usuario');
 }
 
 function getUser() {
@@ -32,5 +28,4 @@ export default {
   removeAuthendication,
   saveUser,
   getUser,
-  removeUser,
 };
