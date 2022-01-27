@@ -23,6 +23,9 @@ const Menu = () => {
           <Link to={'/sobre'}>Sobre</Link>
         </li>
         <li>
+          <Link to={'/controle-de-produtos'}>Produtos</Link>
+        </li>
+        <li>
           <a href="#" onClick={logout}>
             Sair
           </a>
