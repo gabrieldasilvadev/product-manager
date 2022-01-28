@@ -28,7 +28,7 @@ const ProductsController = () => {
       <div className="actions"></div>
 
       <div className="product-table">
-        <table>
+        <table className="content-table">
           <thead>
             <tr>
               <th>ID</th>
@@ -36,6 +36,7 @@ const ProductsController = () => {
               <th>Valor</th>
               <th>Quantidade em Estoque</th>
               <th>Data de cadastro</th>
+              <th>Editar</th>
             </tr>
           </thead>
           <tbody>
