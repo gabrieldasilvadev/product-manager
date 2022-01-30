@@ -1,13 +1,14 @@
-.container .title h1 {
+.container .title {
   text-align: center;
   font-size: 2.5rem;
-  color: #E91E63;
   margin: 1.5em 0;
+  color: #363636;
 }
 
 .product-table {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .content-table {
@@ -20,13 +21,13 @@
 }
 
 .content-table thead tr {
-  background-color: #E91E63;
+  background-color: var(--primary-color);
   color: #fff;
   text-align: left;
   font-weight: 700;
 }
 
-.content-table th, 
+.content-table th,
 .content-table td {
   padding: 12px 15px;
   font-size: 1rem;
@@ -42,30 +43,30 @@
 }
 
 .content-table tbody tr:last-of-type {
-  border-bottom: 2px solid #E91E63;
+  border-bottom: 2px solid var(--primary-color);
 }
 
 .content-table tbody tr.active-row {
   font-weight: 700;
-  color: #E91E63;
+  color: var(--primary-color);
 }
 
-button {
+button.btn {
   outline: none;
   border: none;
+  background: none;
   cursor: pointer;
   text-align: center;
 
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 0 0.5em;
   padding: 10px;
   border-radius: 5px;
 
-  background-color: #E91E63;
-  color: #fff;
+  color: var(--primary-color);
 }
 
-button:hover, 
-button:active {
-  background-color: #EC407A;
+button.btn:hover,
+button.btn:active {
+  color: var(--secondary-color);
 }
