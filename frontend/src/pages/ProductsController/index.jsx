@@ -7,7 +7,16 @@ const ProductsController = () => {
   const [products, setProducts] = useState(new Product());
   const [productsArr, setProductsArr] = useState([]);
 
-  useEffect(() => {
+  const editProduct = (product) => {
+    console.log('editar', product);
+    alert('Cliquei no editar');
+  };
+  const deleteProduct = (product) => {
+    console.log('excluir', product);
+    alert('Cliquei no editar');
+  };
+
+  const getAllProducts = () => {
     ProductService.getAll()
       .then((response) => {
         let productsArr = response.data.map((product) => new Product(product));
@@ -17,16 +26,19 @@ const ProductsController = () => {
       .catch((error) => {
         console.log(error);
       });
+  };
+
+  useEffect(() => {
+    getAllProducts();
   }, []);
 
   return (
     <div className="container">
       <div className="title">
-        <h1>Controle de Produtos</h1>
+        <h2>Controle de Produtos</h2>
       </div>
 
       <div className="actions"></div>
-
       <div className="product-table">
         <table className="content-table">
           <thead>
@@ -48,14 +60,21 @@ const ProductsController = () => {
                 <td>{product.quantidadeEstoque}</td>
                 <td>{product.dataCadastro}</td>
                 <td>
-                  <button className="btn-link">Editar</button>
-                  <button className="btn-link">Excluir</button>
+                  <button className="btn" onClick={editProduct}>
+                    Editar
+                  </button>
+                  <button className="btn" onClick={deleteProduct}>
+                    Excluir
+                  </button>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <center>
+        <button className="btn">Adicionar</button>
+      </center>
     </div>
   );
 };
