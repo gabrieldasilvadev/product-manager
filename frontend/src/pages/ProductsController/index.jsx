@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 import ProductService from '../../service/ProductService';
 import Product from '../../model/Product';
+import MaskDateUtils from '../../utils/MaskDate';
+import MaskToRealUtils from '../../utils/MaskMoney';
 
 const ProductsController = () => {
   const [products, setProducts] = useState(new Product());
@@ -45,8 +47,8 @@ const ProductsController = () => {
             <tr>
               <th>ID</th>
               <th>Nome</th>
-              <th>Valor</th>
               <th>Quantidade em Estoque</th>
+              <th>Valor</th>
               <th>Data de cadastro</th>
               <th>Editar</th>
             </tr>
@@ -56,9 +58,9 @@ const ProductsController = () => {
               <tr>
                 <td>{product.id}</td>
                 <td>{product.nome}</td>
-                <td>{product.valor}</td>
                 <td>{product.quantidadeEstoque}</td>
-                <td>{product.dataCadastro}</td>
+                <td>{MaskToRealUtils.MaskToRealWithPrefix(product.valor)}</td>
+                <td>{MaskDateUtils.FormatDateHourDateIso(product.dataCadastro)}</td>
                 <td>
                   <button className="btn" onClick={editProduct}>
                     Editar
