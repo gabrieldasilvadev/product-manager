@@ -1,7 +1,14 @@
+.wrapper {
+  max-width: 988px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
 .container .title {
   text-align: center;
-  font-size: 2.5rem;
-  margin: 1.5em 0;
+  font-size: 1.5rem;
+  margin-top: 1.5em;
   color: #363636;
 }
 
@@ -69,4 +76,15 @@ button.btn {
 button.btn:hover,
 button.btn:active {
   color: var(--secondary-color);
+}
+
+button.btn-add {
+  margin: 1em 0;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+button.btn-add:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
 }
