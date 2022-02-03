@@ -4,6 +4,7 @@ import ProductService from '../../service/ProductService';
 import Product from '../../model/Product';
 import MaskDateUtils from '../../utils/MaskDate';
 import MaskToRealUtils from '../../utils/MaskMoney';
+import { AiOutlineClose } from 'react-icons/ai';
 
 const ProductsController = () => {
   const [products, setProducts] = useState(new Product());
@@ -40,14 +41,48 @@ const ProductsController = () => {
   }, []);
 
   return (
-    <div className="container wrapper">
+    <div className="container">
       <div className="title">
         <h2>Controle de Produtos</h2>
       </div>
 
+      <div className="container-modal">
+        <div className="header-modal">
+          <h3>Adicionar item</h3>
+          <AiOutlineClose />
+        </div>
+        <hr />
+        <div className="body-modal">
+          <div className="form-group">
+            <label htmlFor="name">Nome</label>
+            <input id='name' type="text" className='form-control' />
+          </div>
+          <div className="form-group">
+            <label htmlFor="quantidade">Quantidade</label>
+            <input id='quantidade' type="number" className='form-control' />
+          </div>
+          <div className="form-group">
+            <label htmlFor="value">Valor</label>
+            <input id='value' type="text" className='form-control' />
+          </div>
+          <div className="form-group">
+            <label htmlFor="date-cadastro">Data de cadastro</label>
+            <input id='date-cadastro' type="date" className='form-control' />
+          </div>
+        </div>
+
+        <div className="footer-modal">
+          <button>Salvar</button>
+          <button>Cancelar</button>
+        </div>
+        <hr />
+      </div>
+
       <div className="actions"></div>
-      <button className="btn btn-add" onClick={AddProduct}>Adicionar</button>
       <div className="product-table">
+        <button className="btn btn-add" onClick={AddProduct}>
+          Adicionar
+        </button>
         <table className="content-table">
           <thead>
             <tr>
