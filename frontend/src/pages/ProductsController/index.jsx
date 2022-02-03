@@ -58,15 +58,15 @@ const ProductsController = () => {
             <input id='name' type="text" className='form-control' />
           </div>
           <div className="form-group">
-            <label htmlFor="quantidade">Quantidade</label>
-            <input id='quantidade' type="number" className='form-control' />
+            <label htmlFor="amount">Quantidade</label>
+            <input id='amount' type="number" className='form-control' />
           </div>
           <div className="form-group">
             <label htmlFor="value">Valor</label>
             <input id='value' type="text" className='form-control' />
           </div>
           <div className="form-group">
-            <label htmlFor="date-cadastro">Data de cadastro</label>
+            <label htmlFor="date-register">Data de cadastro</label>
             <input id='date-cadastro' type="date" className='form-control' />
           </div>
         </div>
