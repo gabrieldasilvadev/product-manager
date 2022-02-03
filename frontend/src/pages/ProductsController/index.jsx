@@ -67,7 +67,7 @@ const ProductsController = () => {
           </div>
           <div className="form-group">
             <label htmlFor="date-register">Data de cadastro</label>
-            <input id='date-cadastro' type="date" className='form-control' />
+            <input id='date-register' type="date" className='form-control' />
           </div>
         </div>
 
