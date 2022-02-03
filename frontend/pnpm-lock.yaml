@@ -6,6 +6,7 @@ specifiers:
   moment: ^2.29.1
   react: ^17.0.2
   react-dom: ^17.0.2
+  react-icons: ^4.3.1
   react-router-dom: ^6.2.1
   styled-components: ^5.3.3
   vite: ^2.7.2
@@ -15,6 +16,7 @@ dependencies:
   moment: 2.29.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  react-icons: 4.3.1_react@17.0.2
   react-router-dom: 6.2.1_react-dom@17.0.2+react@17.0.2
   styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
 
@@ -773,6 +775,14 @@ packages:
       object-assign: 4.1.1
       react: 17.0.2
       scheduler: 0.20.2
+    dev: false
+
+  /react-icons/4.3.1_react@17.0.2:
+    resolution: {integrity: sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 17.0.2
     dev: false
 
   /react-is/16.13.1:
