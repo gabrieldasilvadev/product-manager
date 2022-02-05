@@ -4,11 +4,12 @@ import ProductService from '../../service/ProductService';
 import Product from '../../model/Product';
 import MaskDateUtils from '../../utils/MaskDate';
 import MaskToRealUtils from '../../utils/MaskMoney';
-import { AiOutlineClose } from 'react-icons/ai';
+import Modal from '../../components/Modal';
 
 const ProductsController = () => {
   const [products, setProducts] = useState(new Product());
   const [productsArr, setProductsArr] = useState([]);
+  const [openModal, setOpenModal] = useState(false);
 
   const AddProduct = () => {
     console.log('adicionas', products);
@@ -46,41 +47,16 @@ const ProductsController = () => {
         <h2>Controle de Produtos</h2>
       </div>
 
-      <div className="container-modal">
-        <div className="header-modal">
-          <h3>Adicionar item</h3>
-          <AiOutlineClose />
-        </div>
-        <hr />
-        <div className="body-modal">
-          <div className="form-group">
-            <label htmlFor="name">Nome</label>
-            <input id='name' type="text" className='form-control' />
-          </div>
-          <div className="form-group">
-            <label htmlFor="amount">Quantidade</label>
-            <input id='amount' type="number" className='form-control' />
-          </div>
-          <div className="form-group">
-            <label htmlFor="value">Valor</label>
-            <input id='value' type="text" className='form-control' />
-          </div>
-          <div className="form-group">
-            <label htmlFor="date-register">Data de cadastro</label>
-            <input id='date-register' type="date" className='form-control' />
-          </div>
-        </div>
-
-        <div className="footer-modal">
-          <button>Salvar</button>
-          <button>Cancelar</button>
-        </div>
-        <hr />
-      </div>
+      {openModal && <Modal closeModal={setOpenModal}/>}
 
       <div className="actions"></div>
       <div className="product-table">
-        <button className="btn btn-add" onClick={AddProduct}>
+        <button
+          className="btn btn-add"
+          onClick={() => {
+            setOpenModal(true);
+          }}
+        >
           Adicionar
         </button>
         <table className="content-table">
