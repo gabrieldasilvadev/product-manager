@@ -6,9 +6,9 @@ specifiers:
   moment: ^2.29.1
   react: ^17.0.2
   react-dom: ^17.0.2
-  react-icons: ^4.3.1
   react-router-dom: ^6.2.1
   styled-components: ^5.3.3
+  styled-icons: ^10.45.0
   vite: ^2.7.2
 
 dependencies:
@@ -16,9 +16,9 @@ dependencies:
   moment: 2.29.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
-  react-icons: 4.3.1_react@17.0.2
   react-router-dom: 6.2.1_react-dom@17.0.2+react@17.0.2
   styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+  styled-icons: 10.45.0_c17876e09d792e0c7b0f44e49f814625
 
 devDependencies:
   '@vitejs/plugin-react': 1.1.4
@@ -323,6 +323,450 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
     dev: true
+
+  /@styled-icons/bootstrap/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-UpzdVUR7r9BNqEfPrMchJdgMZEg9eXQxLQJUXM0ouvbI5o9j21/y1dGameO4PZtYbutT/dWv5O6y24z5JWzd5w==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/boxicons-logos/10.38.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-DpkUi9qV76RsyuzihQhfCho142WCxK/2oUfjcqo6BsP92qxV+4rtS5nfVsmqfnSEef4av+qSeg33fJWDyURyKg==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/boxicons-regular/10.38.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-xjhafoa0/EeYtQOyTw+ohuSlBx599t8l8++JH1tQlM0l73dP4icTpF4znYL+HhZeaUe3D+UhrkfWuBBua2w2Qw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/boxicons-solid/10.38.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-uuMtF1R61smQT5r6HIYMHvpVD0XSErXXNQYl5d6lCtMyefd0gIE5Rw+iD9i/RxHFUHNHbvL69LvitCLtNWrSqw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/crypto/10.38.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-SOfJFfofCOgExaRB0u3AA7Fdv2vbFIxtCAmyNDdjqvnTncg4HVPEg5+rysN3oHGiJBF8+uqUdtLerx3rmhYI7g==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/entypo-social/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-amhrYcc/buvTJrunRnYNeFNJ5Ru1ByV/pcICj7An9TF/NNC4exfnzaoUzOJNcMGOHU5jphrqjSosC4pQNJKqkA==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/entypo/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-9hl109HydOfi/q9ceqoI9Bmj5tv1v/RoUY2nbuGuVtKDVNCVw7WQ0eTiZkb1OgiVYsJXs6xQBcNZdVeo4en/lQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/evaicons-outline/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-ONPKJO+u3DB/rsCJdIKt6OBoKBvIvM/EsulxuWniRPPr0rR5lwueGocJpJmEUi+C4gsMllBSkcL5cOdFyd1Nbw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/evaicons-solid/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-74S0zzxovKTXNpID8bXB4Qy34EBq3vuVAlTd9xsT2gY16BtPH7JcGHLmtQpbpJcHuWkcQH4bSv+GLq+0/i/ljQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/evil/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-rU5MrgMow9I0Vkqo6V5WkTcj0o1toDzn8kQSQywTL1N7JuyATKZgN3kgkzNUgHd5LorcsGMetPsvDmgS31XAPw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/fa-brands/10.38.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-zZzGkcshXIF55geFIpMzMLH6tSPzQeeFPFZ1RMrZ3TWBjUuquMx+vYFsO7kzq939X84gLjmpkJZsAP9QKJFvMg==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/fa-regular/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-QUqljT+uIfowGurV5GzjnHA1qvq922H+6yGRzQYBxBZ5Vgaak4Q71jtCSMqZKXcOG3tngMyhrOuaNaPOw1Q1pQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/fa-solid/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-PnJMUPcbuPA7gswxl9FKd725qaqP5VSbmX7rk+ZZ7ivdA6Dbi1VoKYXqAc62OEisGDhzn5g56KbBvE14W1n7vw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/feather/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-UdhKaUC8T98V5H4WEh+UBRfVT7ZTcPpgUUrXlRM2CWanuNIUKpIjj0SKhsnkuprqtzV1L6s3Koa40VTfpG9LYQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/fluentui-system-filled/10.35.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-uupqp8u2FdnpOhVPAIAVb9Ax8p6Yu/ZDsRq3XUHhDd0e4Mb1e2KIXorwg1sRfR+PHCvWLbu6knIt17Az1OlmHQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/fluentui-system-regular/10.35.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-DHZRTLw6tGkmG6EOo46iHsta6xx+Gd71iHEg5GTVTsoUtk2ZFHL1GRW9KPnkcPPB6h3/QQE4c36MyHFPvPfjzA==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/foundation/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-RJksGQoStOqVQegwvtDTqrhEQjc7x5izqzBuwMw6R+18XcBC+pP8oRtuisv2ogn5icVrN/FWQHMx8EJ14jMdig==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/heroicons-outline/10.36.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-1IcNp8rjPetb5IMvSzCgh1/QDsz7brzMKv6AEbchByKM6oyOsv9p2PapGMRs6L5rH3LDGzouxNSYPUES8aY3Vw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/heroicons-solid/10.36.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-cbC0roQSwvrw+ryVx1MfK3NAxh5CyOCzJwFgwZTuXsYpk7IVNNFFSRn1uRGaFDHn3aLLEikMkxxR4q5NM07ZpA==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/icomoon/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-nimtxPqlA6K2iNDeGCCYrFvPbjJl2TwM+YtX55RYC3YJFrh+MeKL+F60uvzoKWY3vZ1vsmQR3iW+aRFQHvhIOw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/ionicons-outline/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-8zLCIizxxKAA8tpJLmEnfXy+NcWW7CIxaqDQPZ/GEri4f6GA4QEf4BxCz+XXfEBoBthj+cPr/3d8oB7YygC5TQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/ionicons-sharp/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-2vmb5xa0fNDWe6QoKsfATilv9Qvlnv4z/3m1NMY+tU5ER+Z9YvPQkLcRqeS/dpm4HHfRAlGsVX5A8r8B+rPnag==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/ionicons-solid/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-gp85y8VbxhBUx0xP3eokyxIkAiWkSaJO3kN1/mGfCSKcWllLBhoHikyGjWAxFPMunhzix4PM0tVudWrsSxmLeQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/material-outlined/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-scn3Ih15t82rUJPI9vwnZaYL6ZiDhlYoashIJAs8c8QjJfK0rWdt+hr3E6/0wixx67BkLB3j96Jn9y+qXfVVIQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/material-rounded/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-Y2QB3bz+tDmrtcgNXKIPnw8xqarObpcFxOapkP3pMDGl+guCgV5jNHrE8xTKyN5lYYQmm9oBZ5odwgT3B+Uw5g==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/material-sharp/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-XY1N68Tj5TyyAHJDQwYtasKis4xuNl5xjbISdz8zreWlsY5N4nO4rh/SgAUYvblz+Xjf4P+JZAF22foVpZwIeg==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/material-twotone/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-o5EwR1WdjUwNebFAWqIiZwbP1ibOPy8vHX0KdkV0WDZTCXDW5Nhj3C5JeTAwPeRtFU+Bxt7NHjUmrsm3jNRzzw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/material/10.34.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-BQCyzAN0RhkpI6mpIP7RvUoZOZ15d5opKfQRqQXVOfKD3Dkyi26Uog1KTuaaa/MqtqrWaYXC6Y1ypanvfpyL2g==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/octicons/10.44.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-7pLWrUDkc/acwJ4ayL+Xmb7o1j5WUB6nI5dATRPzcm2CENUdEEyf17uL1J9qwB5aFoyDpo7c/UYWtq5QpGpk6A==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/open-iconic/10.18.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-H+uiRUDm09SXlOgJheOmhT0KeLs5uBS85H2VF1ypMN1m/vy/NdaGP5QAvWTCzBk088JJGYEkvhb4i4pGcwRsEA==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/remix-editor/10.33.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-V1jZ3G1J8PaBiIwf2Va7UuEXot8xR39UQ3XNIJNQClnGA04ahTsEC2mpN5pHwr4mkJijXu0Htjhnf/YiWYVsCw==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/remix-fill/10.18.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-FbnQMvxt2R7CYb8j/dVAXd31CDg4k3vX1zG/9GH9qpL536yxndnyopa7hwF/Yisy2pzR7uNlNXmTQAmYK2HSrg==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/remix-line/10.18.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-UZllhk6hEWFyZt+jdPCO4zbeM0P3Y/Lc1iWWOwUXGP5AzStM2KadjaGpi99FhNfrvrly98cVB8b4M/GVExYn0Q==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/simple-icons/10.45.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-2agGgrxuiBjicbz5kgF1M691oNfRUYwSWy80kqJCEGXyJ9YGtLWXTSNdLYMk0Dt4JnL0/3eKItU9jYf24rCcJg==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/styled-icon/10.6.3_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-/A95L3peioLoWFiy+/eKRhoQ9r/oRrN/qzbSX4hXU1nGP2rUXcX3LWUhoBNAOp9Rw38ucc/4ralY427UUNtcGQ==}
+    peerDependencies:
+      react: '*'
+      styled-components: '>=4.1.0 <6'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@emotion/is-prop-valid': 0.8.8
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/typicons/10.18.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-VN9vEzeAn5//uUvBN2N/OAXnrC6zCERu1eXUiXmYTwd7n8ZoMMASKmVWrAho20YmhUjEPZdSvS1cJ/pzV9K6Zg==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
+
+  /@styled-icons/zondicons/10.18.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-P+XDzHRjY7zgcOYI22VJPg4GW01760VICwMSF2vJFRd0bux3hKIJI8voABA9v00Ce1TeOZnUbKcgQFBNIThs5w==}
+    peerDependencies:
+      react: '*'
+      styled-components: '*'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
+    dev: false
 
   /@vitejs/plugin-react/1.1.4:
     resolution: {integrity: sha512-cMUBDonNY8PPeHWjIrYKbRn6bLSunh/Ixo2XLLBd3DM0uYBZft+c+04zkGhhN1lAwvoRKJ2FdtvhGhPgViHc6w==}
@@ -777,14 +1221,6 @@ packages:
       scheduler: 0.20.2
     dev: false
 
-  /react-icons/4.3.1_react@17.0.2:
-    resolution: {integrity: sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ==}
-    peerDependencies:
-      react: '*'
-    dependencies:
-      react: 17.0.2
-    dev: false
-
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
@@ -893,6 +1329,54 @@ packages:
       react-dom: 17.0.2_react@17.0.2
       shallowequal: 1.1.0
       supports-color: 5.5.0
+    dev: false
+
+  /styled-icons/10.45.0_c17876e09d792e0c7b0f44e49f814625:
+    resolution: {integrity: sha512-oUsAAr95m+IPS3JxExaxdxoVA6FIqTPEykebMe7h7rkD6X5JS5K37kg4HlWJOcpMznL0Vj3GW6S5LF1qqUwN7Q==}
+    peerDependencies:
+      react: '*'
+      styled-components: '>=4.1.0 <6'
+    dependencies:
+      '@babel/runtime': 7.16.7
+      '@styled-icons/bootstrap': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/boxicons-logos': 10.38.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/boxicons-regular': 10.38.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/boxicons-solid': 10.38.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/crypto': 10.38.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/entypo': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/entypo-social': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/evaicons-outline': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/evaicons-solid': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/evil': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/fa-brands': 10.38.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/fa-regular': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/fa-solid': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/feather': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/fluentui-system-filled': 10.35.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/fluentui-system-regular': 10.35.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/foundation': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/heroicons-outline': 10.36.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/heroicons-solid': 10.36.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/icomoon': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/ionicons-outline': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/ionicons-sharp': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/ionicons-solid': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/material': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/material-outlined': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/material-rounded': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/material-sharp': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/material-twotone': 10.34.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/octicons': 10.44.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/open-iconic': 10.18.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/remix-editor': 10.33.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/remix-fill': 10.18.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/remix-line': 10.18.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/simple-icons': 10.45.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/styled-icon': 10.6.3_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/typicons': 10.18.0_c17876e09d792e0c7b0f44e49f814625
+      '@styled-icons/zondicons': 10.18.0_c17876e09d792e0c7b0f44e49f814625
+      react: 17.0.2
+      styled-components: 5.3.3_react-dom@17.0.2+react@17.0.2
     dev: false
 
   /supports-color/5.5.0:
