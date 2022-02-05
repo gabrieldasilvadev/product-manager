@@ -31,7 +31,7 @@ export const Navbar = styled.ul`
     text-align: center;
     padding: 20px;
 
-    :hover {
+    &:hover {
       background-color: var(--secondary-color);
     }
   }
