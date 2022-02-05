@@ -83,7 +83,11 @@ button.btn-add:hover {
   color: #fff;
 }
 
-.container-modal {
+body {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .container-modal {
   max-width: 500px;
   background-color: #fff;
 }
@@ -94,6 +98,39 @@ button.btn-add:hover {
   align-items: center;
 }
 
-body {
-  background-color: rgba(0, 0, 0, 0.3);
+.container-modal {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
 }
+
+.footer-modal {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.btn-modal-save,
+.btn-modal-cancel {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.btn-modal-cancel {
+  background-color: #E20000;
+  margin-left: 10px;
+}
+
+.btn-modal-save:hover, .btn-modal-cancel:hover {
+  opacity: 0.8;
+  color: #fff;
+} */
