@@ -5,8 +5,13 @@ export const ContainerModal = styled.div`
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: #fff;
   max-width: 500px;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 `;
 
 export const HeaderModal = styled.div`
