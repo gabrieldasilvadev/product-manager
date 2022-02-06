@@ -1,3 +1,6 @@
+.container {
+  position: relative;
+}
 .container .title {
   text-align: center;
   font-size: 1.5rem;
@@ -39,10 +42,6 @@
   border-bottom: 1px solid #ddd;
 }
 
-.content-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
 .content-table tbody tr:last-of-type {
   border-bottom: 2px solid var(--primary-color);
 }
@@ -50,6 +49,10 @@
 .content-table tbody tr.active-row {
   font-weight: 700;
   color: var(--primary-color);
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 button.btn {
@@ -82,55 +85,3 @@ button.btn-add:hover {
   background-color: var(--secondary-color);
   color: #fff;
 }
-
-body {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-/* .container-modal {
-  max-width: 500px;
-  background-color: #fff;
-}
-
-.header-modal {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.container-modal {
-  margin: 0 auto;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.footer-modal {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 1em 0;
-}
-
-.btn-modal-save,
-.btn-modal-cancel {
-  border: none;
-  outline: none;
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 1rem;
-  cursor: pointer;
-
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
-.btn-modal-cancel {
-  background-color: #E20000;
-  margin-left: 10px;
-}
-
-.btn-modal-save:hover, .btn-modal-cancel:hover {
-  opacity: 0.8;
-  color: #fff;
-} */
